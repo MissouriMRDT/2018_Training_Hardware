@@ -1,6 +1,48 @@
-EESchema Schematic File Version 4
-LIBS:DriveBoard_Hardware-cache
-EELAYER 26 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MRDT_Actives
+LIBS:MRDT_Connectors
+LIBS:MRDT_Devices
+LIBS:MRDT_Drill_Holes
+LIBS:MRDT_Headers
+LIBS:MRDT_ICs
+LIBS:MRDT_Passives
+LIBS:MRDT_Sensors
+LIBS:MRDT_Shields
+LIBS:MRDT_Silkscreens
+LIBS:MRDT_Switches
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +57,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DriveBoard_Hardware-rescue:TM4C129E_Launchpad U?
+L TM4C129E_Launchpad U?
 U 5 1 5B9D7B83
 P 3800 2950
 F 0 "U?" H 3900 2900 60  0000 C CNN
@@ -26,7 +68,7 @@ F 3 "" H 3800 2950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DriveBoard_Hardware-rescue:TM4C129E_Launchpad U?
+L TM4C129E_Launchpad U?
 U 6 1 5B9D7BB8
 P 4300 2950
 F 0 "U?" H 4400 2900 60  0000 C CNN
@@ -37,7 +79,7 @@ F 3 "" H 4300 2950 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DriveBoard_Hardware-rescue:TM4C129E_Launchpad U?
+L TM4C129E_Launchpad U?
 U 7 1 5B9D7BE3
 P 3800 4200
 F 0 "U?" H 3900 4150 60  0000 C CNN
@@ -48,7 +90,7 @@ F 3 "" H 3800 4200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DriveBoard_Hardware-rescue:TM4C129E_Launchpad U?
+L TM4C129E_Launchpad U?
 U 8 1 5B9D7C16
 P 4300 4200
 F 0 "U?" H 4400 4150 60  0000 C CNN
@@ -59,7 +101,7 @@ F 3 "" H 4300 4200 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DriveBoard_Hardware-rescue:AndersonPP Conn?
+L AndersonPP Conn?
 U 1 1 5B9D7E2C
 P 5500 2500
 F 0 "Conn?" H 5650 2450 60  0000 C CNN
@@ -70,7 +112,7 @@ F 3 "" H 5350 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DriveBoard_Hardware-rescue:AndersonPP Conn?
+L AndersonPP Conn?
 U 2 1 5B9D7E8A
 P 5500 2200
 F 0 "Conn?" H 5650 2150 60  0000 C CNN
@@ -81,7 +123,7 @@ F 3 "" H 5350 1650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DriveBoard_Hardware-rescue:OKI U?
+L OKI U?
 U 1 1 5B9D7F4C
 P 6600 2200
 F 0 "U?" H 6650 2150 60  0001 C CNN
@@ -92,7 +134,7 @@ F 3 "" H 6400 2100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L C C?
 U 1 1 5B9D808D
 P 6250 2250
 F 0 "C?" H 6275 2350 50  0000 L CNN
@@ -103,7 +145,7 @@ F 3 "" H 6250 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L C C?
 U 1 1 5B9D80F2
 P 7350 2250
 F 0 "C?" H 7375 2350 50  0000 L CNN
@@ -116,7 +158,7 @@ $EndComp
 Text Label 5950 2100 0    60   ~ 0
 +12V
 $Comp
-L DriveBoard_Hardware-rescue:Molex_SL_05 Conn?
+L Molex_SL_05 Conn?
 U 1 1 5B9D853E
 P 8350 3450
 F 0 "Conn?" H 8500 3400 60  0000 C CNN
@@ -127,7 +169,7 @@ F 3 "" H 8350 3450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DriveBoard_Hardware-rescue:Molex_SL_05 Conn?
+L Molex_SL_05 Conn?
 U 1 1 5B9D859F
 P 8350 4150
 F 0 "Conn?" H 8500 4100 60  0000 C CNN
@@ -142,7 +184,7 @@ Motor 1
 Text Notes 8450 4050 1    60   ~ 0
 Motor 2
 $Comp
-L DriveBoard_Hardware-rescue:MAX_3232 U?
+L MAX_3232 U?
 U 1 1 5B9D8654
 P 5900 4050
 F 0 "U?" H 5950 4000 60  0000 C CNN
@@ -153,7 +195,7 @@ F 3 "" H 5900 3450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5B9D8B05
 P 6900 3100
 F 0 "C?" H 6910 3170 50  0000 L CNN
@@ -164,7 +206,7 @@ F 3 "" H 6900 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5B9D8BA6
 P 6900 3400
 F 0 "C?" H 6910 3470 50  0000 L CNN
@@ -175,7 +217,7 @@ F 3 "" H 6900 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5B9D8BE9
 P 5550 3400
 F 0 "C?" V 5500 3450 50  0000 L CNN
@@ -186,7 +228,7 @@ F 3 "" H 5550 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 5B9D8C37
 P 5550 3500
 F 0 "C?" V 5600 3550 50  0000 L CNN
@@ -269,7 +311,11 @@ Wire Notes Line
 Wire Notes Line
 	7450 4350 7450 2650
 Wire Notes Line
+	8800 1550 3150 1550
+Wire Notes Line
 	5000 1550 5000 4350
+Wire Notes Line
+	4950 1550 5000 1550
 Wire Notes Line
 	3150 1550 3150 4350
 Wire Notes Line
@@ -294,23 +340,11 @@ Wire Wire Line
 Connection ~ 7350 2100
 Connection ~ 6250 2100
 Wire Wire Line
-	6400 2100 6250 2100
+	6400 2100 5900 2100
 Connection ~ 6250 2400
 Connection ~ 6800 2400
 Wire Wire Line
-	5900 2400 6250 2400
+	5900 2400 7600 2400
 Wire Wire Line
-	7200 2100 7350 2100
-Wire Wire Line
-	7350 2400 7600 2400
-Wire Wire Line
-	7350 2100 7600 2100
-Wire Wire Line
-	6250 2100 5900 2100
-Wire Wire Line
-	6250 2400 6800 2400
-Wire Wire Line
-	6800 2400 7350 2400
-Wire Notes Line
-	3150 1550 8800 1550
+	7200 2100 7600 2100
 $EndSCHEMATC
