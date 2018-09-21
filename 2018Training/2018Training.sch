@@ -1,4 +1,318 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 1 1 5BA2ED6F
+P 1400 3450
+F 0 "U?" H 1701 4048 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 1701 3942 60  0000 L CNN
+F 2 "" H 1400 3450 60  0001 C CNN
+F 3 "" H 1400 3450 60  0001 C CNN
+	1    1400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5BA2EE43
+P 1450 2000
+F 0 "Conn?" H 1656 2387 60  0000 C CNN
+F 1 "AndersonPP" H 1656 2281 60  0000 C CNN
+F 2 "" H 1300 1450 60  0001 C CNN
+F 3 "" H 1300 1450 60  0001 C CNN
+	1    1450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5BA2EEF2
+P 1450 1350
+F 0 "Conn?" H 1656 1737 60  0000 C CNN
+F 1 "AndersonPP" H 1656 1631 60  0000 C CNN
+F 2 "" H 1300 800 60  0001 C CNN
+F 3 "" H 1300 800 60  0001 C CNN
+	2    1450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_ICs:MAX_3232 U?
+U 1 1 5BA2EF7E
+P 5200 3600
+F 0 "U?" H 5550 4937 60  0000 C CNN
+F 1 "MAX_3232" H 5550 4831 60  0000 C CNN
+F 2 "" H 5200 3000 60  0001 C CNN
+F 3 "" H 5200 3000 60  0001 C CNN
+	1    5200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_05 Conn?
+U 1 1 5BA2F027
+P 7900 3000
+F 0 "Conn?" H 8027 3308 60  0000 L CNN
+F 1 "Molex_SL_05" H 8027 3202 60  0000 L CNN
+F 2 "" H 7900 3000 60  0001 C CNN
+F 3 "" H 7900 3000 60  0001 C CNN
+	1    7900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Devices:OKI U?
+U 1 1 5BA2F0C8
+P 2950 1500
+F 0 "U?" H 3000 1450 60  0001 C CNN
+F 1 "OKI" H 3150 1781 60  0000 C CNN
+F 2 "" H 2750 1400 60  0001 C CNN
+F 3 "" H 2750 1400 60  0001 C CNN
+	1    2950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Project~Library:TM4C129E_Launchpad U?
+U 1 1 5BA319C6
+P 2550 4400
+F 0 "U?" H 2550 4525 50  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 2550 4434 50  0000 C CNN
+F 2 "" H 2650 4500 50  0001 C CNN
+F 3 "" H 2650 4500 50  0001 C CNN
+	1    2550 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_05 Conn?
+U 1 1 5BA31A84
+P 7900 3650
+F 0 "Conn?" H 8027 3958 60  0000 L CNN
+F 1 "Molex_SL_05" H 8027 3852 60  0000 L CNN
+F 2 "" H 7900 3650 60  0001 C CNN
+F 3 "" H 7900 3650 60  0001 C CNN
+	1    7900 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1250 2750 1400
+Wire Wire Line
+	3150 1900 3150 1700
+Connection ~ 3150 1900
+Wire Wire Line
+	3150 1900 3900 1900
+Wire Wire Line
+	4350 2550 5000 2550
+Wire Wire Line
+	4350 1400 4350 2550
+Wire Wire Line
+	3900 1900 3900 2200
+Wire Wire Line
+	3900 2200 7250 2200
+Wire Wire Line
+	7250 2200 7250 2750
+Wire Wire Line
+	4350 2550 3000 2550
+Connection ~ 4350 2550
+Wire Wire Line
+	3900 2200 3900 2750
+Wire Wire Line
+	3900 2750 5000 2750
+Connection ~ 3900 2200
+Wire Wire Line
+	3900 2750 3900 2950
+Wire Wire Line
+	3900 2950 4350 2950
+Connection ~ 3900 2750
+Wire Wire Line
+	3900 2950 3900 3050
+Wire Wire Line
+	3900 3050 4350 3050
+Connection ~ 3900 2950
+Wire Wire Line
+	7700 2750 7250 2750
+Wire Wire Line
+	7250 2750 7250 3400
+Wire Wire Line
+	7250 3400 7700 3400
+Connection ~ 7250 2750
+Wire Wire Line
+	6100 3550 7150 3550
+Wire Wire Line
+	7150 3550 7150 3500
+Wire Wire Line
+	7150 3500 7700 3500
+Wire Wire Line
+	6100 3450 6950 3450
+Wire Wire Line
+	6950 3450 6950 3600
+Wire Wire Line
+	6950 3600 7700 3600
+Wire Wire Line
+	6100 3300 7150 3300
+Wire Wire Line
+	7150 3300 7150 2950
+Wire Wire Line
+	7150 2950 7700 2950
+Wire Wire Line
+	6100 3200 7050 3200
+Wire Wire Line
+	7050 3200 7050 2850
+Wire Wire Line
+	7050 2850 7700 2850
+Wire Wire Line
+	2100 2850 1550 2850
+Wire Wire Line
+	1550 2850 1550 3900
+Wire Wire Line
+	1550 3900 4500 3900
+Wire Wire Line
+	4500 3900 4500 3300
+Wire Wire Line
+	4500 3300 5000 3300
+Wire Wire Line
+	2100 2750 1650 2750
+Wire Wire Line
+	1650 2750 1650 3800
+Wire Wire Line
+	1650 3800 4350 3800
+Wire Wire Line
+	4350 3800 4350 3200
+Wire Wire Line
+	4350 3200 5000 3200
+Wire Wire Line
+	3650 3050 3650 3550
+Wire Wire Line
+	3650 3550 5000 3550
+Wire Wire Line
+	3000 3050 3650 3050
+Wire Wire Line
+	3000 2950 3750 2950
+Wire Wire Line
+	3750 2950 3750 3450
+Wire Wire Line
+	3750 3450 5000 3450
+Wire Wire Line
+	3550 1400 3900 1400
+Text Label 8000 3550 1    50   ~ 0
+Motor2
+Text Label 8000 2900 1    50   ~ 0
+Motor1
+Text Label 3100 2950 0    50   ~ 0
+Serial4
+Text Label 1700 2750 0    50   ~ 0
+Serial6
+Wire Wire Line
+	1850 1900 2200 1900
+Wire Wire Line
+	1850 1250 2200 1250
+$Comp
+L Device:C C?
+U 1 1 5BA4A92D
+P 2200 1600
+F 0 "C?" H 2315 1646 50  0000 L CNN
+F 1 "1.0uF" H 2315 1555 50  0000 L CNN
+F 2 "" H 2238 1450 50  0001 C CNN
+F 3 "~" H 2200 1600 50  0001 C CNN
+	1    2200 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1250 2200 1450
+Connection ~ 2200 1250
+Wire Wire Line
+	2200 1250 2750 1250
+Wire Wire Line
+	2200 1900 2200 1750
+Connection ~ 2200 1900
+Wire Wire Line
+	2200 1900 3150 1900
+$Comp
+L Device:C C?
+U 1 1 5BA4DDE5
+P 6300 2950
+F 0 "C?" H 6415 2996 50  0000 L CNN
+F 1 ".1uF" H 6415 2905 50  0000 L CNN
+F 2 "" H 6338 2800 50  0001 C CNN
+F 3 "~" H 6300 2950 50  0001 C CNN
+	1    6300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BA4DE3B
+P 6300 2600
+F 0 "C?" H 6415 2646 50  0000 L CNN
+F 1 ".1uF" H 6415 2555 50  0000 L CNN
+F 2 "" H 6338 2450 50  0001 C CNN
+F 3 "~" H 6300 2600 50  0001 C CNN
+	1    6300 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2550 6100 2450
+Wire Wire Line
+	6100 2450 6300 2450
+Wire Wire Line
+	6100 2750 6300 2750
+Wire Wire Line
+	6100 2850 6200 2850
+Wire Wire Line
+	6200 2850 6200 2800
+Wire Wire Line
+	6200 2800 6300 2800
+Wire Wire Line
+	6100 3050 6100 3100
+Wire Wire Line
+	6100 3100 6300 3100
+$Comp
+L Device:C_Small C?
+U 1 1 5BA54128
+P 4450 2950
+F 0 "C?" V 4679 2950 50  0000 C CNN
+F 1 ".1uF" V 4588 2950 50  0000 C CNN
+F 2 "" H 4450 2950 50  0001 C CNN
+F 3 "~" H 4450 2950 50  0001 C CNN
+	1    4450 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5BA541CE
+P 4450 3050
+F 0 "C?" V 4679 3050 50  0000 C CNN
+F 1 ".1uF" V 4588 3050 50  0000 C CNN
+F 2 "" H 4450 3050 50  0001 C CNN
+F 3 "~" H 4450 3050 50  0001 C CNN
+	1    4450 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 3050 5000 3050
+Wire Wire Line
+	4550 2950 5000 2950
+$Comp
+L Device:C C?
+U 1 1 5BA56901
+P 3900 1550
+F 0 "C?" H 4015 1596 50  0000 L CNN
+F 1 "1.0uF" H 4015 1505 50  0000 L CNN
+F 2 "" H 3938 1400 50  0001 C CNN
+F 3 "~" H 3900 1550 50  0001 C CNN
+	1    3900 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 1400
+Wire Wire Line
+	3900 1400 4350 1400
+Wire Wire Line
+	3900 1900 3900 1700
+Connection ~ 3900 1900
 $EndSCHEMATC
