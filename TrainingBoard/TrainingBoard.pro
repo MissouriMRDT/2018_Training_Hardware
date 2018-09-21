@@ -1,4 +1,4 @@
-update=9/21/2018 3:17:44 PM
+update=9/21/2018 3:32:17 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -59,5 +61,14 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[general]
-version=1
+LibName33=C:/MRDT_KiCAD_Libraries/Device/MRDT_Actives
+LibName34=C:/MRDT_KiCAD_Libraries/Device/MRDT_Connectors
+LibName35=C:/MRDT_KiCAD_Libraries/Device/MRDT_Devices
+LibName36=C:/MRDT_KiCAD_Libraries/Device/MRDT_Drill_Holes
+LibName37=C:/MRDT_KiCAD_Libraries/Device/MRDT_Headers
+LibName38=C:/MRDT_KiCAD_Libraries/Device/MRDT_ICs
+LibName39=C:/MRDT_KiCAD_Libraries/Device/MRDT_Passives
+LibName40=C:/MRDT_KiCAD_Libraries/Device/MRDT_Sensors
+LibName41=C:/MRDT_KiCAD_Libraries/Device/MRDT_Shields
+LibName42=C:/MRDT_KiCAD_Libraries/Device/MRDT_Silkscreens
+LibName43=C:/MRDT_KiCAD_Libraries/Device/MRDT_Switches
