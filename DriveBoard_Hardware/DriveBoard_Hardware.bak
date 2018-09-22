@@ -198,30 +198,12 @@ F 3 "" H 5550 3500 50  0001 C CNN
 $EndComp
 Text Notes 3200 2150 0    60   ~ 0
 Serial 6
-Text GLabel 7600 2100 2    60   Output ~ 0
-+5V
-Text GLabel 7600 2400 2    60   UnSpc ~ 0
-GND
 Text Notes 4550 2350 0    60   ~ 0
 Serial 4
 Text GLabel 4500 2400 2    60   Input ~ 0
 RX_2_IC
 Text GLabel 4500 2500 2    60   Output ~ 0
 TX_2_IC
-Text GLabel 5700 3000 0    60   Input ~ 0
-+5V
-Text GLabel 5700 3200 0    60   UnSpc ~ 0
-GND
-Text GLabel 5350 3400 0    60   UnSpc ~ 0
-GND
-Text GLabel 5350 3500 0    60   UnSpc ~ 0
-GND
-Text GLabel 4500 2000 2    60   Input ~ 0
-+5V
-Text GLabel 8150 3200 0    60   UnSpc ~ 0
-GND
-Text GLabel 8150 3900 0    60   UnSpc ~ 0
-GND
 NoConn ~ 8150 3000
 NoConn ~ 8150 3100
 NoConn ~ 8150 3700
@@ -313,4 +295,139 @@ Wire Wire Line
 	6800 2400 7350 2400
 Wire Notes Line
 	3150 1550 8800 1550
+$Comp
+L power:+5V #PWR0101
+U 1 1 5BA18FD6
+P 7600 2100
+F 0 "#PWR0101" H 7600 1950 50  0001 C CNN
+F 1 "+5V" H 7615 2273 50  0000 C CNN
+F 2 "" H 7600 2100 50  0001 C CNN
+F 3 "" H 7600 2100 50  0001 C CNN
+	1    7600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5BA19006
+P 5650 2950
+F 0 "#PWR0102" H 5650 2800 50  0001 C CNN
+F 1 "+5V" H 5665 3123 50  0000 C CNN
+F 2 "" H 5650 2950 50  0001 C CNN
+F 3 "" H 5650 2950 50  0001 C CNN
+	1    5650 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2950 5650 3000
+Wire Wire Line
+	5650 3000 5700 3000
+$Comp
+L power:+5V #PWR?
+U 1 1 5BA19514
+P 4700 1950
+F 0 "#PWR?" H 4700 1800 50  0001 C CNN
+F 1 "+5V" H 4715 2123 50  0000 C CNN
+F 2 "" H 4700 1950 50  0001 C CNN
+F 3 "" H 4700 1950 50  0001 C CNN
+	1    4700 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2000 4700 1950
+Wire Wire Line
+	7650 3200 7650 3250
+Wire Wire Line
+	7650 3200 8150 3200
+Wire Wire Line
+	7650 3900 7650 3950
+Wire Wire Line
+	7650 3900 8150 3900
+Wire Wire Line
+	4500 3250 4700 3250
+Wire Wire Line
+	4700 3250 4700 3300
+Wire Wire Line
+	4500 2100 4700 2100
+Wire Wire Line
+	4700 2100 4700 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5BA1C14F
+P 7600 2450
+F 0 "#PWR?" H 7600 2200 50  0001 C CNN
+F 1 "GND" H 7605 2277 50  0000 C CNN
+F 2 "" H 7600 2450 50  0001 C CNN
+F 3 "" H 7600 2450 50  0001 C CNN
+	1    7600 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 2400 7600 2450
+$Comp
+L power:GND #PWR?
+U 1 1 5BA1C6E0
+P 7650 3250
+F 0 "#PWR?" H 7650 3000 50  0001 C CNN
+F 1 "GND" H 7655 3077 50  0000 C CNN
+F 2 "" H 7650 3250 50  0001 C CNN
+F 3 "" H 7650 3250 50  0001 C CNN
+	1    7650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BA1C772
+P 7650 3950
+F 0 "#PWR?" H 7650 3700 50  0001 C CNN
+F 1 "GND" H 7655 3777 50  0000 C CNN
+F 2 "" H 7650 3950 50  0001 C CNN
+F 3 "" H 7650 3950 50  0001 C CNN
+	1    7650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BA1C882
+P 4700 3300
+F 0 "#PWR?" H 4700 3050 50  0001 C CNN
+F 1 "GND" H 4700 3150 50  0000 C CNN
+F 2 "" H 4700 3300 50  0001 C CNN
+F 3 "" H 4700 3300 50  0001 C CNN
+	1    4700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BA1C93C
+P 4700 2150
+F 0 "#PWR?" H 4700 1900 50  0001 C CNN
+F 1 "GND" H 4800 2150 50  0000 C CNN
+F 2 "" H 4700 2150 50  0001 C CNN
+F 3 "" H 4700 2150 50  0001 C CNN
+	1    4700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BA1CC6D
+P 5150 3200
+F 0 "#PWR?" H 5150 2950 50  0001 C CNN
+F 1 "GND" H 5050 3200 50  0000 C CNN
+F 2 "" H 5150 3200 50  0001 C CNN
+F 3 "" H 5150 3200 50  0001 C CNN
+	1    5150 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3500 5350 3400
+Wire Wire Line
+	5350 3200 5700 3200
+Connection ~ 5350 3400
+Wire Wire Line
+	5350 3400 5350 3200
+Wire Wire Line
+	5350 3200 5150 3200
+Connection ~ 5350 3200
+Wire Wire Line
+	4500 2000 4700 2000
 $EndSCHEMATC
