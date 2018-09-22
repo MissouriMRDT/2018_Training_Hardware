@@ -1,4 +1,167 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_ICs:MAX_3232 U?
+U 1 1 5BA491F3
+P 3300 5300
+F 0 "U?" H 3650 6637 60  0000 C CNN
+F 1 "MAX_3232" H 3650 6531 60  0000 C CNN
+F 2 "" H 3300 4700 60  0001 C CNN
+F 3 "" H 3300 4700 60  0001 C CNN
+	1    3300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Devices:OKI U?
+U 1 1 5BA499EA
+P 2250 1650
+F 0 "U?" H 2300 1600 60  0001 C CNN
+F 1 "OKI" H 2450 1931 60  0000 C CNN
+F 2 "" H 2050 1550 60  0001 C CNN
+F 3 "" H 2050 1550 60  0001 C CNN
+	1    2250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_05 Conn?
+U 1 1 5BA49A1C
+P 5500 4600
+F 0 "Conn?" H 5627 4908 60  0000 L CNN
+F 1 "Molex_SL_05" H 5627 4802 60  0000 L CNN
+F 2 "" H 5500 4600 60  0001 C CNN
+F 3 "" H 5500 4600 60  0001 C CNN
+	1    5500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_05 Conn?
+U 1 1 5BA49A77
+P 5500 5200
+F 0 "Conn?" H 5627 5508 60  0000 L CNN
+F 1 "Molex_SL_05" H 5627 5402 60  0000 L CNN
+F 2 "" H 5500 5200 60  0001 C CNN
+F 3 "" H 5500 5200 60  0001 C CNN
+	1    5500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 3 1 5BA5CBBA
+P 1650 1650
+F 0 "Conn?" H 1856 2037 60  0000 C CNN
+F 1 "AndersonPP" H 1856 1931 60  0000 C CNN
+F 2 "" H 1500 1100 60  0001 C CNN
+F 3 "" H 1500 1100 60  0001 C CNN
+	3    1650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 2 1 5BA5E16B
+P 2100 4500
+F 0 "U?" H 2405 5098 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 2405 4992 60  0000 L CNN
+F 2 "" H 2100 4500 60  0001 C CNN
+F 3 "" H 2100 4500 60  0001 C CNN
+	2    2100 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 1 1 5BA5E1DF
+P 2100 5650
+F 0 "U?" H 2401 6248 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 2401 6142 60  0000 L CNN
+F 2 "" H 2100 5650 60  0001 C CNN
+F 3 "" H 2100 5650 60  0001 C CNN
+	1    2100 5650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3650 2300 3650
+Wire Wire Line
+	2450 1850 2450 3650
+Wire Wire Line
+	2850 3550 2300 3550
+Wire Wire Line
+	2850 1550 2850 3550
+Wire Wire Line
+	3100 4900 2300 4900
+Wire Wire Line
+	2300 5000 3100 5000
+Wire Wire Line
+	5300 4550 5050 4550
+Wire Wire Line
+	5050 4550 5050 4900
+Wire Wire Line
+	5050 5150 5300 5150
+Wire Wire Line
+	5300 5050 5150 5050
+Wire Wire Line
+	5150 5050 5150 5000
+Wire Wire Line
+	5150 4450 5300 4450
+Wire Wire Line
+	4200 4900 5050 4900
+Connection ~ 5050 4900
+Wire Wire Line
+	5050 4900 5050 5150
+Wire Wire Line
+	4200 5000 5150 5000
+Connection ~ 5150 5000
+Wire Wire Line
+	5150 5000 5150 4450
+Wire Wire Line
+	2850 3550 2850 4250
+Wire Wire Line
+	2850 4250 3100 4250
+Connection ~ 2850 3550
+Wire Wire Line
+	2450 3650 2450 4450
+Wire Wire Line
+	2450 4450 3100 4450
+Connection ~ 2450 3650
+Wire Wire Line
+	2450 4450 2450 5450
+Wire Wire Line
+	2450 5450 3600 5450
+Wire Wire Line
+	4950 5450 4950 4950
+Wire Wire Line
+	4950 4350 5300 4350
+Connection ~ 2450 4450
+Wire Wire Line
+	5300 4950 4950 4950
+Connection ~ 4950 4950
+Wire Wire Line
+	4950 4950 4950 4350
+$Comp
+L power:GND #PWR?
+U 1 1 5BA5F43E
+P 3600 5500
+F 0 "#PWR?" H 3600 5250 50  0001 C CNN
+F 1 "GND" H 3605 5327 50  0000 C CNN
+F 2 "" H 3600 5500 50  0001 C CNN
+F 3 "" H 3600 5500 50  0001 C CNN
+	1    3600 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5500 3600 5450
+Connection ~ 3600 5450
+Wire Wire Line
+	3600 5450 4950 5450
 $EndSCHEMATC
