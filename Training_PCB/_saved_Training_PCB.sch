@@ -1,0 +1,158 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 5 1 5BAD3EBB
+P 2550 3200
+F 0 "U?" H 2550 3150 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 2300 4400 60  0000 L CNN
+F 2 "" H 2550 3200 60  0001 C CNN
+F 3 "" H 2550 3200 60  0001 C CNN
+	5    2550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 6 1 5BAD3F7A
+P 3050 3200
+F 0 "U?" H 3100 3150 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 3082 4371 60  0001 C CNN
+F 2 "" H 3050 3200 60  0001 C CNN
+F 3 "" H 3050 3200 60  0001 C CNN
+	6    3050 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 7 1 5BAD41D4
+P 2550 4600
+F 0 "U?" H 2550 4550 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 2950 5750 60  0001 L CNN
+F 2 "" H 2550 4600 60  0001 C CNN
+F 3 "" H 2550 4600 60  0001 C CNN
+	7    2550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 8 1 5BAD4279
+P 3050 4600
+F 0 "U?" H 3100 4550 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 3082 5771 60  0001 C CNN
+F 2 "" H 3050 4600 60  0001 C CNN
+F 3 "" H 3050 4600 60  0001 C CNN
+	8    3050 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5BAD43D3
+P 2400 1350
+F 0 "Conn?" H 2550 1300 60  0000 C CNN
+F 1 "AndersonPP" H 2606 1631 60  0001 C CNN
+F 2 "" H 2250 800 60  0001 C CNN
+F 3 "" H 2250 800 60  0001 C CNN
+	1    2400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5BAD4432
+P 2400 1050
+F 0 "Conn?" H 2550 1000 60  0000 C CNN
+F 1 "AndersonPP" H 2606 1331 60  0000 C CNN
+F 2 "" H 2250 500 60  0001 C CNN
+F 3 "" H 2250 500 60  0001 C CNN
+	2    2400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5BAD4923
+P 3150 1100
+F 0 "C?" H 3200 1200 50  0000 L CNN
+F 1 "10u" H 3200 1000 50  0000 L CNN
+F 2 "" H 3150 1100 50  0001 C CNN
+F 3 "~" H 3150 1100 50  0001 C CNN
+	1    3150 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 950  3150 950 
+Wire Wire Line
+	3150 950  3150 1000
+Wire Wire Line
+	3150 1200 3150 1250
+Wire Wire Line
+	3150 1250 2800 1250
+Text Label 2900 950  0    50   ~ 0
++12V
+$Comp
+L MRDT_Devices:OKI U?
+U 1 1 5BAD4BAE
+P 3750 1050
+F 0 "U?" H 3800 1000 60  0001 C CNN
+F 1 "OKI" H 3950 1331 60  0000 C CNN
+F 2 "" H 3550 950 60  0001 C CNN
+F 3 "" H 3550 950 60  0001 C CNN
+	1    3750 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 950  3550 950 
+Connection ~ 3150 950 
+Wire Wire Line
+	3150 1250 3950 1250
+Connection ~ 3150 1250
+$Comp
+L Device:C_Small C?
+U 1 1 5BAD4F94
+P 4550 1100
+F 0 "C?" H 4600 1200 50  0000 L CNN
+F 1 "10u" H 4600 1000 50  0000 L CNN
+F 2 "" H 4550 1100 50  0001 C CNN
+F 3 "~" H 4550 1100 50  0001 C CNN
+	1    4550 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 950  4550 950 
+Wire Wire Line
+	4550 950  4550 1000
+Wire Wire Line
+	3950 1250 4550 1250
+Wire Wire Line
+	4550 1250 4550 1200
+Connection ~ 3950 1250
+$Comp
+L MRDT_ICs:MAX_3232 U?
+U 1 1 5BAD5150
+P 5400 3250
+F 0 "U?" H 5750 4587 60  0000 C CNN
+F 1 "MAX_3232" H 5750 4481 60  0000 C CNN
+F 2 "" H 5400 2650 60  0001 C CNN
+F 3 "" H 5400 2650 60  0001 C CNN
+	1    5400 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 950  4900 950 
+Wire Wire Line
+	4900 950  4900 2200
+Connection ~ 4550 950 
+Text Label 4450 900  0    50   ~ 0
++5V
+$EndSCHEMATC
