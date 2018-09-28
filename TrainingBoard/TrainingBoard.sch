@@ -1,48 +1,10 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:power
 LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
 LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
 LIBS:audio
 LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:MRDT_Actives
-LIBS:MRDT_Connectors
-LIBS:MRDT_Devices
-LIBS:MRDT_Drill_Holes
-LIBS:MRDT_Headers
-LIBS:MRDT_ICs
-LIBS:MRDT_Passives
-LIBS:MRDT_Sensors
-LIBS:MRDT_Shields
-LIBS:MRDT_Silkscreens
-LIBS:MRDT_Switches
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -57,94 +19,101 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AndersonPP Conn?
-U 1 1 5BA6656B
-P 1200 1350
-F 0 "Conn?" H 1350 1300 60  0000 C CNN
-F 1 "AndersonPP" H 1300 1600 60  0001 C CNN
-F 2 "" H 1050 800 60  0001 C CNN
-F 3 "" H 1050 800 60  0001 C CNN
-	1    1200 1350
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5BAE8B34
+P 900 1500
+F 0 "Conn?" H 1050 1750 60  0000 C CNN
+F 1 "AndersonPP" H 1106 1781 60  0001 C CNN
+F 2 "" H 750 950 60  0001 C CNN
+F 3 "" H 750 950 60  0001 C CNN
+	1    900  1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L AndersonPP Conn?
-U 2 1 5BA665DD
-P 1200 1000
-F 0 "Conn?" H 1350 950 60  0000 C CNN
-F 1 "AndersonPP" H 1300 1250 60  0001 C CNN
-F 2 "" H 1050 450 60  0001 C CNN
-F 3 "" H 1050 450 60  0001 C CNN
-	2    1200 1000
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5BAE8BDD
+P 900 1150
+F 0 "Conn?" H 1050 1400 60  0000 C CNN
+F 1 "AndersonPP" V 1106 1431 60  0001 C CNN
+F 2 "" H 750 600 60  0001 C CNN
+F 3 "" H 750 600 60  0001 C CNN
+	2    900  1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
-U 1 1 5BA66616
-P 2950 1100
-F 0 "C?" H 2960 1170 50  0000 L CNN
-F 1 "10u" H 2960 1020 50  0000 L CNN
-F 2 "" H 2950 1100 50  0001 C CNN
-F 3 "" H 2950 1100 50  0001 C CNN
-	1    2950 1100
+L MRDT_Devices:OKI U?
+U 1 1 5BAE8C34
+P 2450 1150
+F 0 "U?" H 2500 1100 60  0001 C CNN
+F 1 "OKI" H 2650 1431 60  0000 C CNN
+F 2 "" H 2250 1050 60  0001 C CNN
+F 3 "" H 2250 1050 60  0001 C CNN
+	1    2450 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
-U 1 1 5BA6663F
-P 2000 1100
-F 0 "C?" H 2010 1170 50  0000 L CNN
-F 1 "10u" H 2010 1020 50  0000 L CNN
-F 2 "" H 2000 1100 50  0001 C CNN
-F 3 "" H 2000 1100 50  0001 C CNN
-	1    2000 1100
+L Device:C_Small C?
+U 1 1 5BAE8C76
+P 1650 1200
+F 0 "C?" H 1742 1246 50  0000 L CNN
+F 1 "10u" H 1750 1150 50  0000 L CNN
+F 2 "" H 1650 1200 50  0001 C CNN
+F 3 "~" H 1650 1200 50  0001 C CNN
+	1    1650 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L OKI U?
-U 1 1 5BA666EC
-P 2300 1000
-F 0 "U?" H 2350 950 60  0001 C CNN
-F 1 "OKI" H 2500 1250 60  0000 C CNN
-F 2 "" H 2100 900 60  0001 C CNN
-F 3 "" H 2100 900 60  0001 C CNN
-	1    2300 1000
+L Device:C_Small C?
+U 1 1 5BAE8CF4
+P 3350 1250
+F 0 "C?" H 3442 1296 50  0000 L CNN
+F 1 "10u" H 3442 1205 50  0000 L CNN
+F 2 "" H 3350 1250 50  0001 C CNN
+F 3 "~" H 3350 1250 50  0001 C CNN
+	1    3350 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 900  2100 900 
+	1300 1050 1650 1050
 Wire Wire Line
-	1600 1250 3200 1250
+	1650 1050 1650 1100
 Wire Wire Line
-	2500 1250 2500 1200
+	1300 1400 1650 1400
 Wire Wire Line
-	2000 1250 2000 1200
-Connection ~ 2000 1250
+	1650 1400 1650 1300
 Wire Wire Line
-	2000 1000 2000 900 
-Connection ~ 2000 900 
+	1650 1400 2650 1400
 Wire Wire Line
-	2900 900  3200 900 
+	2650 1400 2650 1350
+Connection ~ 1650 1400
 Wire Wire Line
-	2950 1000 2950 900 
+	2250 1050 1650 1050
+Connection ~ 1650 1050
 Wire Wire Line
-	2950 1250 2950 1200
-Connection ~ 2500 1250
-Connection ~ 2950 900 
-Text GLabel 3200 900  2    60   Output ~ 0
-5V
-Connection ~ 2950 1250
-Text GLabel 3200 1250 2    60   UnSpc ~ 0
+	3050 1050 3350 1050
+Wire Wire Line
+	3350 1050 3350 1150
+Wire Wire Line
+	3350 1350 3350 1400
+Wire Wire Line
+	3350 1400 2650 1400
+Connection ~ 2650 1400
+Wire Wire Line
+	3350 1050 4000 1050
+Connection ~ 3350 1050
+Wire Wire Line
+	3350 1400 4000 1400
+Connection ~ 3350 1400
+Text GLabel 4000 1400 2    50   UnSpc ~ 0
 GND
-$Comp
-L MAX_3232 U?
-U 1 1 5BA671B9
-P 6150 2150
-F 0 "U?" H 6200 2100 60  0000 C CNN
-F 1 "MAX_3232" H 6500 3350 60  0000 C CNN
-F 2 "" H 6150 1550 60  0001 C CNN
-F 3 "" H 6150 1550 60  0001 C CNN
-	1    6150 2150
-	1    0    0    -1  
-$EndComp
+Text GLabel 4000 1050 2    50   Output ~ 0
+5V
+Wire Notes Line
+	4500 600  4500 2100
+Wire Notes Line
+	4500 2100 600  2100
+Wire Notes Line
+	600  2100 600  600 
+Wire Notes Line
+	600  600  4500 600 
 $EndSCHEMATC
