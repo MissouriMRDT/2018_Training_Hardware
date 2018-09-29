@@ -1,0 +1,8 @@
+Id,Designator,Package,Designation,,Item Name,Part Number,,,Vendor,Quantity,Cost Per Item,,Cost,,Comments,URL
+1,Conn1,Anderson_2_Horisontal_Side_by_Side,AndersonPP,1,,,,,,
+2,"Conn2,Conn3",MOLEX_SL_05_Horizontal,Molex_SL_05,2,,,,,,
+3,U1,TM4C129E_Launchpad_X7,TM4C129E_Launchpad,1,,,,,,
+4,U2,SOIC_16_3.9x9.9mm_Pitch1.27mm,MAX_3232,1,,,,,,
+5,U3,OKI_Horizontal,OKI,1,,,,,,
+6,"C1,C2,C4,C5",C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,.1uF,,0603 Capacitor .1u,1276-1005-1-ND,,,Digikey,4,0.1,,0.4,,,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091
+7,"C3,C6",C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,10uF,2,,,,,,
