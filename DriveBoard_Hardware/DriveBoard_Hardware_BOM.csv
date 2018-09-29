@@ -1,0 +1,8 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"Conn2,Conn3";"MOLEX_SL_05_Horizontal";2;"Molex_SL_05";;;
+2;"U1";"TM4C129E_Launchpad_X7";1;"TM4C129E_Launchpad";;;
+3;"C1,C2,C4,C5";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";4;".1uF";;;
+4;"C3,C6";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";2;"10uF";;;
+5;"Conn1";"Anderson_2_Horisontal_Side_by_Side";1;"AndersonPP";;;
+6;"U2";"SOIC_16_3.9x9.9mm_Pitch1.27mm";1;"MAX_3232";;;
+7;"U3";"OKI_Horizontal";1;"OKI";;;

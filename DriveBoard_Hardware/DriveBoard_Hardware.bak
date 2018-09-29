@@ -15,100 +15,100 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DriveBoard_Hardware-rescue:TM4C129E_Launchpad U1
+L DriveBoard_Hardware-rescue:TM4C129E_Launchpad U?
 U 5 1 5B9D7B83
 P 3800 2950
-F 0 "U1" H 3900 2900 60  0000 C CNN
+F 0 "U?" H 3900 2900 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 3900 4100 60  0001 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_X7" H 3800 2950 60  0001 C CNN
+F 2 "" H 3800 2950 60  0001 C CNN
 F 3 "" H 3800 2950 60  0001 C CNN
 	5    3800 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L DriveBoard_Hardware-rescue:TM4C129E_Launchpad U1
+L DriveBoard_Hardware-rescue:TM4C129E_Launchpad U?
 U 6 1 5B9D7BB8
 P 4300 2950
-F 0 "U1" H 4400 2900 60  0000 C CNN
+F 0 "U?" H 4400 2900 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 4550 4100 60  0000 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_X7" H 4300 2950 60  0001 C CNN
+F 2 "" H 4300 2950 60  0001 C CNN
 F 3 "" H 4300 2950 60  0001 C CNN
 	6    4300 2950
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DriveBoard_Hardware-rescue:TM4C129E_Launchpad U1
+L DriveBoard_Hardware-rescue:TM4C129E_Launchpad U?
 U 7 1 5B9D7BE3
 P 3800 4200
-F 0 "U1" H 3900 4150 60  0000 C CNN
+F 0 "U?" H 3900 4150 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 3900 5350 60  0001 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_X7" H 3800 4200 60  0001 C CNN
+F 2 "" H 3800 4200 60  0001 C CNN
 F 3 "" H 3800 4200 60  0001 C CNN
 	7    3800 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L DriveBoard_Hardware-rescue:TM4C129E_Launchpad U1
+L DriveBoard_Hardware-rescue:TM4C129E_Launchpad U?
 U 8 1 5B9D7C16
 P 4300 4200
-F 0 "U1" H 4400 4150 60  0000 C CNN
+F 0 "U?" H 4400 4150 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 4400 5350 60  0001 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_X7" H 4300 4200 60  0001 C CNN
+F 2 "" H 4300 4200 60  0001 C CNN
 F 3 "" H 4300 4200 60  0001 C CNN
 	8    4300 4200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DriveBoard_Hardware-rescue:AndersonPP Conn1
+L DriveBoard_Hardware-rescue:AndersonPP Conn?
 U 1 1 5B9D7E2C
 P 5500 2500
-F 0 "Conn1" H 5650 2450 60  0000 C CNN
+F 0 "Conn?" H 5650 2450 60  0000 C CNN
 F 1 "AndersonPP" H 5600 2750 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 5350 1950 60  0001 C CNN
+F 2 "" H 5350 1950 60  0001 C CNN
 F 3 "" H 5350 1950 60  0001 C CNN
 	1    5500 2500
 	1    0    0    -1  
 $EndComp
 $Comp
-L DriveBoard_Hardware-rescue:AndersonPP Conn1
+L DriveBoard_Hardware-rescue:AndersonPP Conn?
 U 2 1 5B9D7E8A
 P 5500 2200
-F 0 "Conn1" H 5650 2150 60  0000 C CNN
+F 0 "Conn?" H 5650 2150 60  0000 C CNN
 F 1 "AndersonPP" H 5600 2450 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 5350 1650 60  0001 C CNN
+F 2 "" H 5350 1650 60  0001 C CNN
 F 3 "" H 5350 1650 60  0001 C CNN
 	2    5500 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L DriveBoard_Hardware-rescue:OKI U3
+L DriveBoard_Hardware-rescue:OKI U?
 U 1 1 5B9D7F4C
 P 6600 2200
-F 0 "U3" H 6650 2150 60  0001 C CNN
+F 0 "U?" H 6650 2150 60  0001 C CNN
 F 1 "OKI" H 6800 2450 60  0000 C CNN
-F 2 "MRDT_Devices:OKI_Horizontal" H 6400 2100 60  0001 C CNN
+F 2 "" H 6400 2100 60  0001 C CNN
 F 3 "" H 6400 2100 60  0001 C CNN
 	1    6600 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L Device:C C?
 U 1 1 5B9D808D
 P 6250 2250
-F 0 "C3" H 6275 2350 50  0000 L CNN
+F 0 "C?" H 6275 2350 50  0000 L CNN
 F 1 "10uF" H 6275 2150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6288 2100 50  0001 C CNN
+F 2 "" H 6288 2100 50  0001 C CNN
 F 3 "" H 6250 2250 50  0001 C CNN
 	1    6250 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L Device:C C?
 U 1 1 5B9D80F2
 P 7350 2250
-F 0 "C6" H 7375 2350 50  0000 L CNN
+F 0 "C?" H 7375 2350 50  0000 L CNN
 F 1 "10uF" H 7375 2150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7388 2100 50  0001 C CNN
+F 2 "" H 7388 2100 50  0001 C CNN
 F 3 "" H 7350 2250 50  0001 C CNN
 	1    7350 2250
 	1    0    0    -1  
@@ -116,23 +116,23 @@ $EndComp
 Text Label 5950 2100 0    60   ~ 0
 +12V
 $Comp
-L DriveBoard_Hardware-rescue:Molex_SL_05 Conn2
+L DriveBoard_Hardware-rescue:Molex_SL_05 Conn?
 U 1 1 5B9D853E
 P 8350 3450
-F 0 "Conn2" H 8500 3400 60  0000 C CNN
+F 0 "Conn?" H 8500 3400 60  0000 C CNN
 F 1 "Molex_SL_05" H 8400 4000 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 8350 3450 60  0001 C CNN
+F 2 "" H 8350 3450 60  0001 C CNN
 F 3 "" H 8350 3450 60  0001 C CNN
 	1    8350 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L DriveBoard_Hardware-rescue:Molex_SL_05 Conn3
+L DriveBoard_Hardware-rescue:Molex_SL_05 Conn?
 U 1 1 5B9D859F
 P 8350 4150
-F 0 "Conn3" H 8500 4100 60  0000 C CNN
+F 0 "Conn?" H 8500 4100 60  0000 C CNN
 F 1 "Molex_SL_05" H 8400 4700 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 8350 4150 60  0001 C CNN
+F 2 "" H 8350 4150 60  0001 C CNN
 F 3 "" H 8350 4150 60  0001 C CNN
 	1    8350 4150
 	1    0    0    -1  
@@ -142,56 +142,56 @@ Motor 1
 Text Notes 8450 4050 1    60   ~ 0
 Motor 2
 $Comp
-L DriveBoard_Hardware-rescue:MAX_3232 U2
+L DriveBoard_Hardware-rescue:MAX_3232 U?
 U 1 1 5B9D8654
 P 5900 4050
-F 0 "U2" H 5950 4000 60  0000 C CNN
+F 0 "U?" H 5950 4000 60  0000 C CNN
 F 1 "MAX_3232" H 6250 5250 60  0000 C CNN
-F 2 "MRDT_ICs:SOIC_16_3.9x9.9mm_Pitch1.27mm" H 5900 3450 60  0001 C CNN
+F 2 "" H 5900 3450 60  0001 C CNN
 F 3 "" H 5900 3450 60  0001 C CNN
 	1    5900 4050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C4
+L Device:C_Small C?
 U 1 1 5B9D8B05
 P 6900 3100
-F 0 "C4" H 6910 3170 50  0000 L CNN
+F 0 "C?" H 6910 3170 50  0000 L CNN
 F 1 ".1uF" H 6910 3020 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 3100 50  0001 C CNN
+F 2 "" H 6900 3100 50  0001 C CNN
 F 3 "" H 6900 3100 50  0001 C CNN
 	1    6900 3100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C5
+L Device:C_Small C?
 U 1 1 5B9D8BA6
 P 6900 3400
-F 0 "C5" H 6910 3470 50  0000 L CNN
+F 0 "C?" H 6910 3470 50  0000 L CNN
 F 1 ".1uF" H 6910 3320 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 3400 50  0001 C CNN
+F 2 "" H 6900 3400 50  0001 C CNN
 F 3 "" H 6900 3400 50  0001 C CNN
 	1    6900 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C1
+L Device:C_Small C?
 U 1 1 5B9D8BE9
 P 5550 3400
-F 0 "C1" V 5500 3450 50  0000 L CNN
+F 0 "C?" V 5500 3450 50  0000 L CNN
 F 1 ".1uF" V 5500 3200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5550 3400 50  0001 C CNN
+F 2 "" H 5550 3400 50  0001 C CNN
 F 3 "" H 5550 3400 50  0001 C CNN
 	1    5550 3400
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C2
+L Device:C_Small C?
 U 1 1 5B9D8C37
 P 5550 3500
-F 0 "C2" V 5600 3550 50  0000 L CNN
+F 0 "C?" V 5600 3550 50  0000 L CNN
 F 1 ".1uF" V 5600 3300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5550 3500 50  0001 C CNN
+F 2 "" H 5550 3500 50  0001 C CNN
 F 3 "" H 5550 3500 50  0001 C CNN
 	1    5550 3500
 	0    1    1    0   
@@ -322,10 +322,10 @@ Wire Wire Line
 Wire Wire Line
 	5650 3000 5700 3000
 $Comp
-L power:+5V #PWR0103
+L power:+5V #PWR?
 U 1 1 5BA19514
 P 4700 1950
-F 0 "#PWR0103" H 4700 1800 50  0001 C CNN
+F 0 "#PWR?" H 4700 1800 50  0001 C CNN
 F 1 "+5V" H 4715 2123 50  0000 C CNN
 F 2 "" H 4700 1950 50  0001 C CNN
 F 3 "" H 4700 1950 50  0001 C CNN
@@ -351,10 +351,10 @@ Wire Wire Line
 Wire Wire Line
 	4700 2100 4700 2150
 $Comp
-L power:GND #PWR0104
+L power:GND #PWR?
 U 1 1 5BA1C14F
 P 7600 2450
-F 0 "#PWR0104" H 7600 2200 50  0001 C CNN
+F 0 "#PWR?" H 7600 2200 50  0001 C CNN
 F 1 "GND" H 7605 2277 50  0000 C CNN
 F 2 "" H 7600 2450 50  0001 C CNN
 F 3 "" H 7600 2450 50  0001 C CNN
@@ -364,10 +364,10 @@ $EndComp
 Wire Wire Line
 	7600 2400 7600 2450
 $Comp
-L power:GND #PWR0105
+L power:GND #PWR?
 U 1 1 5BA1C6E0
 P 7650 3250
-F 0 "#PWR0105" H 7650 3000 50  0001 C CNN
+F 0 "#PWR?" H 7650 3000 50  0001 C CNN
 F 1 "GND" H 7655 3077 50  0000 C CNN
 F 2 "" H 7650 3250 50  0001 C CNN
 F 3 "" H 7650 3250 50  0001 C CNN
@@ -375,10 +375,10 @@ F 3 "" H 7650 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0106
+L power:GND #PWR?
 U 1 1 5BA1C772
 P 7650 3950
-F 0 "#PWR0106" H 7650 3700 50  0001 C CNN
+F 0 "#PWR?" H 7650 3700 50  0001 C CNN
 F 1 "GND" H 7655 3777 50  0000 C CNN
 F 2 "" H 7650 3950 50  0001 C CNN
 F 3 "" H 7650 3950 50  0001 C CNN
@@ -386,10 +386,10 @@ F 3 "" H 7650 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
+L power:GND #PWR?
 U 1 1 5BA1C882
 P 4700 3300
-F 0 "#PWR0107" H 4700 3050 50  0001 C CNN
+F 0 "#PWR?" H 4700 3050 50  0001 C CNN
 F 1 "GND" H 4700 3150 50  0000 C CNN
 F 2 "" H 4700 3300 50  0001 C CNN
 F 3 "" H 4700 3300 50  0001 C CNN
@@ -397,10 +397,10 @@ F 3 "" H 4700 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0108
+L power:GND #PWR?
 U 1 1 5BA1C93C
 P 4700 2150
-F 0 "#PWR0108" H 4700 1900 50  0001 C CNN
+F 0 "#PWR?" H 4700 1900 50  0001 C CNN
 F 1 "GND" H 4800 2150 50  0000 C CNN
 F 2 "" H 4700 2150 50  0001 C CNN
 F 3 "" H 4700 2150 50  0001 C CNN
@@ -408,10 +408,10 @@ F 3 "" H 4700 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0109
+L power:GND #PWR?
 U 1 1 5BA1CC6D
 P 5150 3200
-F 0 "#PWR0109" H 5150 2950 50  0001 C CNN
+F 0 "#PWR?" H 5150 2950 50  0001 C CNN
 F 1 "GND" H 5050 3200 50  0000 C CNN
 F 2 "" H 5150 3200 50  0001 C CNN
 F 3 "" H 5150 3200 50  0001 C CNN
