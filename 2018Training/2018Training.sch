@@ -14,89 +14,78 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L MRDT_Shields:TM4C129E_Launchpad U1
 U 1 1 5BA2ED6F
 P 1400 3450
-F 0 "U?" H 1701 4048 60  0000 L CNN
+F 0 "U1" H 1701 4048 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 1701 3942 60  0000 L CNN
-F 2 "" H 1400 3450 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_X7" H 1400 3450 60  0001 C CNN
 F 3 "" H 1400 3450 60  0001 C CNN
 	1    1400 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L MRDT_Connectors:AndersonPP Conn1
 U 1 1 5BA2EE43
 P 1450 2000
-F 0 "Conn?" H 1656 2387 60  0000 C CNN
+F 0 "Conn1" H 1656 2387 60  0000 C CNN
 F 1 "AndersonPP" H 1656 2281 60  0000 C CNN
-F 2 "" H 1300 1450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 1300 1450 60  0001 C CNN
 F 3 "" H 1300 1450 60  0001 C CNN
 	1    1450 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L MRDT_Connectors:AndersonPP Conn1
 U 2 1 5BA2EEF2
 P 1450 1350
-F 0 "Conn?" H 1656 1737 60  0000 C CNN
+F 0 "Conn1" H 1656 1737 60  0000 C CNN
 F 1 "AndersonPP" H 1656 1631 60  0000 C CNN
-F 2 "" H 1300 800 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 1300 800 60  0001 C CNN
 F 3 "" H 1300 800 60  0001 C CNN
 	2    1450 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_ICs:MAX_3232 U?
+L MRDT_ICs:MAX_3232 U3
 U 1 1 5BA2EF7E
 P 5200 3600
-F 0 "U?" H 5550 4937 60  0000 C CNN
+F 0 "U3" H 5550 4937 60  0000 C CNN
 F 1 "MAX_3232" H 5550 4831 60  0000 C CNN
-F 2 "" H 5200 3000 60  0001 C CNN
+F 2 "MRDT_ICs:SOIC_16_3.9x9.9mm_Pitch1.27mm" H 5200 3000 60  0001 C CNN
 F 3 "" H 5200 3000 60  0001 C CNN
 	1    5200 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_05 Conn?
+L MRDT_Connectors:Molex_SL_05 Conn2
 U 1 1 5BA2F027
 P 7900 3000
-F 0 "Conn?" H 8027 3308 60  0000 L CNN
+F 0 "Conn2" H 8027 3308 60  0000 L CNN
 F 1 "Molex_SL_05" H 8027 3202 60  0000 L CNN
-F 2 "" H 7900 3000 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 7900 3000 60  0001 C CNN
 F 3 "" H 7900 3000 60  0001 C CNN
 	1    7900 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Devices:OKI U?
+L MRDT_Devices:OKI U2
 U 1 1 5BA2F0C8
 P 2950 1500
-F 0 "U?" H 3000 1450 60  0001 C CNN
+F 0 "U2" H 3000 1450 60  0001 C CNN
 F 1 "OKI" H 3150 1781 60  0000 C CNN
-F 2 "" H 2750 1400 60  0001 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 2750 1400 60  0001 C CNN
 F 3 "" H 2750 1400 60  0001 C CNN
 	1    2950 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Project~Library:TM4C129E_Launchpad U?
-U 1 1 5BA319C6
-P 2550 4400
-F 0 "U?" H 2550 4525 50  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 2550 4434 50  0000 C CNN
-F 2 "" H 2650 4500 50  0001 C CNN
-F 3 "" H 2650 4500 50  0001 C CNN
-	1    2550 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_05 Conn?
+L MRDT_Connectors:Molex_SL_05 Conn3
 U 1 1 5BA31A84
 P 7900 3650
-F 0 "Conn?" H 8027 3958 60  0000 L CNN
+F 0 "Conn3" H 8027 3958 60  0000 L CNN
 F 1 "Molex_SL_05" H 8027 3852 60  0000 L CNN
-F 2 "" H 7900 3650 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 7900 3650 60  0001 C CNN
 F 3 "" H 7900 3650 60  0001 C CNN
 	1    7900 3650
 	1    0    0    -1  
@@ -214,12 +203,12 @@ Wire Wire Line
 Wire Wire Line
 	1850 1250 2200 1250
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5BA4A92D
 P 2200 1600
-F 0 "C?" H 2315 1646 50  0000 L CNN
+F 0 "C1" H 2315 1646 50  0000 L CNN
 F 1 "1.0uF" H 2315 1555 50  0000 L CNN
-F 2 "" H 2238 1450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2238 1450 50  0001 C CNN
 F 3 "~" H 2200 1600 50  0001 C CNN
 	1    2200 1600
 	1    0    0    -1  
@@ -235,23 +224,23 @@ Connection ~ 2200 1900
 Wire Wire Line
 	2200 1900 3150 1900
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 5BA4DDE5
 P 6300 2950
-F 0 "C?" H 6415 2996 50  0000 L CNN
+F 0 "C6" H 6415 2996 50  0000 L CNN
 F 1 ".1uF" H 6415 2905 50  0000 L CNN
-F 2 "" H 6338 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6338 2800 50  0001 C CNN
 F 3 "~" H 6300 2950 50  0001 C CNN
 	1    6300 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 5BA4DE3B
 P 6300 2600
-F 0 "C?" H 6415 2646 50  0000 L CNN
+F 0 "C5" H 6415 2646 50  0000 L CNN
 F 1 ".1uF" H 6415 2555 50  0000 L CNN
-F 2 "" H 6338 2450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6338 2450 50  0001 C CNN
 F 3 "~" H 6300 2600 50  0001 C CNN
 	1    6300 2600
 	1    0    0    -1  
@@ -273,23 +262,23 @@ Wire Wire Line
 Wire Wire Line
 	6100 3100 6300 3100
 $Comp
-L Device:C_Small C?
+L Device:C_Small C3
 U 1 1 5BA54128
 P 4450 2950
-F 0 "C?" V 4679 2950 50  0000 C CNN
+F 0 "C3" V 4679 2950 50  0000 C CNN
 F 1 ".1uF" V 4588 2950 50  0000 C CNN
-F 2 "" H 4450 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4450 2950 50  0001 C CNN
 F 3 "~" H 4450 2950 50  0001 C CNN
 	1    4450 2950
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C4
 U 1 1 5BA541CE
 P 4450 3050
-F 0 "C?" V 4679 3050 50  0000 C CNN
+F 0 "C4" V 4679 3050 50  0000 C CNN
 F 1 ".1uF" V 4588 3050 50  0000 C CNN
-F 2 "" H 4450 3050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4450 3050 50  0001 C CNN
 F 3 "~" H 4450 3050 50  0001 C CNN
 	1    4450 3050
 	0    -1   -1   0   
@@ -299,12 +288,12 @@ Wire Wire Line
 Wire Wire Line
 	4550 2950 5000 2950
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5BA56901
 P 3900 1550
-F 0 "C?" H 4015 1596 50  0000 L CNN
+F 0 "C2" H 4015 1596 50  0000 L CNN
 F 1 "1.0uF" H 4015 1505 50  0000 L CNN
-F 2 "" H 3938 1400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3938 1400 50  0001 C CNN
 F 3 "~" H 3900 1550 50  0001 C CNN
 	1    3900 1550
 	1    0    0    -1  
