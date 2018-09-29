@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 18)
+    (drawings 20)
     (tracks 146)
     (zones 0)
     (modules 12)
@@ -840,6 +840,12 @@
       (net 9 +5V))
   )
 
+  (gr_text "Motor 2" (at 152.146 88.9 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "Motor 1" (at 152.273 70.739 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 112.0394 51.054) (end 112.0394 132.334) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 114.0714 49.022) (end 170.9801 49.022) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 114.0714 51.054) (end 114.0714 49.022) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5BB0CD82))
