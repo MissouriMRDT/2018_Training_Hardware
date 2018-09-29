@@ -243,7 +243,7 @@ TIVA
 Text Notes 6200 1900 0    98   ~ 20
 Power Filtering
 Text Notes 7800 2800 0    98   ~ 20
-Conectors
+Connectors
 Wire Notes Line
 	5000 2650 8800 2650
 Wire Notes Line
