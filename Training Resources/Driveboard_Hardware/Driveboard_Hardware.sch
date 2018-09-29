@@ -1,0 +1,342 @@
+EESchema Schematic File Version 4
+LIBS:Driveboard_Hardware-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Connectors:Molex_SL_05 Conn2
+U 1 1 5B9E724E
+P 7550 4100
+F 0 "Conn2" H 7677 4408 60  0000 L CNN
+F 1 "Molex_SL_05" H 7677 4302 60  0000 L CNN
+F 2 "" H 7550 4100 60  0001 C CNN
+F 3 "" H 7550 4100 60  0001 C CNN
+	1    7550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_05 Conn3
+U 1 1 5B9E72F1
+P 7550 4700
+F 0 "Conn3" H 7677 5008 60  0000 L CNN
+F 1 "Molex_SL_05" H 7677 4902 60  0000 L CNN
+F 2 "" H 7550 4700 60  0001 C CNN
+F 3 "" H 7550 4700 60  0001 C CNN
+	1    7550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_ICs:MAX_3232 U3
+U 1 1 5B9E73EC
+P 5950 4750
+F 0 "U3" H 6300 6087 60  0000 C CNN
+F 1 "MAX_3232" H 6300 5981 60  0000 C CNN
+F 2 "" H 5950 4150 60  0001 C CNN
+F 3 "" H 5950 4150 60  0001 C CNN
+	1    5950 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn1
+U 1 1 5B9E7525
+P 4000 3200
+F 0 "Conn1" H 3700 3350 60  0000 C CNN
+F 1 "AndersonPP" H 3700 3250 60  0000 C CNN
+F 2 "" H 3850 2650 60  0001 C CNN
+F 3 "" H 3850 2650 60  0001 C CNN
+	1    4000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn1
+U 2 1 5B9E75AD
+P 4000 2900
+F 0 "Conn1" H 3700 3000 60  0000 C CNN
+F 1 "AndersonPP" H 3700 2900 60  0000 C CNN
+F 2 "" H 3850 2350 60  0001 C CNN
+F 3 "" H 3850 2350 60  0001 C CNN
+	2    4000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 5 1 5B9E7BD3
+P 3750 4400
+F 0 "U1" H 3800 4350 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" V 3400 4450 60  0000 L CNN
+F 2 "" H 3750 4400 60  0001 C CNN
+F 3 "" H 3750 4400 60  0001 C CNN
+	5    3750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 6 1 5B9E7C42
+P 4250 4400
+F 0 "U1" H 4300 4350 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" V 3950 4400 60  0000 L CNN
+F 2 "" H 4250 4400 60  0001 C CNN
+F 3 "" H 4250 4400 60  0001 C CNN
+	6    4250 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 7 1 5B9E7DFF
+P 3700 5900
+F 0 "U1" H 3750 5850 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" V 3350 6900 60  0000 R CNN
+F 2 "" H 3700 5900 60  0001 C CNN
+F 3 "" H 3700 5900 60  0001 C CNN
+	7    3700 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 8 1 5B9E7E56
+P 4200 5900
+F 0 "U1" H 4300 5850 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" V 3850 6900 60  0000 R CNN
+F 2 "" H 4200 5900 60  0001 C CNN
+F 3 "" H 4200 5900 60  0001 C CNN
+	8    4200 5900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2800 5750 2800
+Wire Wire Line
+	5750 2800 5750 3700
+Wire Wire Line
+	5750 3700 5400 3700
+Connection ~ 5750 3700
+Wire Wire Line
+	5550 3100 5550 3300
+Wire Wire Line
+	5550 3900 5750 3900
+Wire Wire Line
+	5550 3900 5250 3900
+Connection ~ 5550 3900
+Wire Wire Line
+	5550 3300 7150 3300
+Wire Wire Line
+	7150 3300 7150 3850
+Wire Wire Line
+	7150 3850 7350 3850
+Connection ~ 5550 3300
+Wire Wire Line
+	7150 3850 7150 4450
+Connection ~ 7150 3850
+Wire Wire Line
+	5550 3900 5550 4100
+Connection ~ 5550 4100
+Wire Wire Line
+	5550 4100 5550 4200
+Wire Wire Line
+	3550 3650 3150 3650
+Wire Wire Line
+	3150 3650 3150 4700
+Wire Wire Line
+	3150 4700 4800 4700
+Wire Wire Line
+	4800 4450 5750 4450
+Wire Wire Line
+	3550 3750 3250 3750
+Wire Wire Line
+	3250 3750 3250 4600
+Wire Wire Line
+	3250 4600 4700 4600
+Wire Wire Line
+	4700 4600 4700 4350
+Wire Wire Line
+	4700 4350 5750 4350
+Wire Wire Line
+	7350 4050 7000 4050
+Wire Wire Line
+	7000 4050 7000 4350
+Wire Wire Line
+	7000 4350 6850 4350
+Wire Wire Line
+	6850 4450 7050 4450
+Wire Wire Line
+	7050 4450 7050 3950
+Wire Wire Line
+	7050 3950 7350 3950
+Wire Wire Line
+	7150 4450 7350 4450
+Wire Wire Line
+	7350 4600 7350 4650
+Wire Wire Line
+	6850 4600 7350 4600
+Wire Wire Line
+	6850 4700 7050 4700
+Wire Wire Line
+	7050 4700 7050 4550
+Wire Wire Line
+	7050 4550 7350 4550
+Wire Wire Line
+	4450 3850 5100 3850
+Wire Wire Line
+	5100 4600 5750 4600
+Wire Wire Line
+	4450 3950 5000 3950
+Wire Wire Line
+	5000 3950 5000 4700
+Wire Wire Line
+	5000 4700 5750 4700
+Text Label 4600 3850 0    50   ~ 0
+Serial4
+Text Label 2900 4050 0    50   ~ 0
+Serial6
+NoConn ~ 7350 3650
+NoConn ~ 7350 3750
+NoConn ~ 7350 4250
+NoConn ~ 7350 4350
+NoConn ~ 4450 3650
+NoConn ~ 4450 3750
+NoConn ~ 4450 4050
+NoConn ~ 4450 4150
+NoConn ~ 4450 4250
+NoConn ~ 4450 4350
+NoConn ~ 3550 4350
+NoConn ~ 3550 4250
+NoConn ~ 3550 4150
+NoConn ~ 3550 4050
+NoConn ~ 3550 3950
+NoConn ~ 3550 3850
+NoConn ~ 3550 3550
+NoConn ~ 3550 3450
+Text Label 7650 4000 1    50   ~ 0
+Motor1
+Text Label 7650 4600 1    50   ~ 0
+Motor2
+Wire Wire Line
+	4800 4450 4800 4700
+Wire Wire Line
+	5100 3850 5100 4600
+Wire Wire Line
+	5250 3550 4450 3550
+Wire Wire Line
+	5400 3450 4450 3450
+Wire Wire Line
+	5550 3300 5550 3900
+Wire Wire Line
+	5400 3450 5400 3700
+Wire Wire Line
+	5250 3550 5250 3900
+$Comp
+L Device:C C1
+U 1 1 5BA31FC3
+P 4600 2950
+F 0 "C1" H 4715 2996 50  0000 L CNN
+F 1 "10uF" H 4600 2850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4638 2800 50  0001 C CNN
+F 3 "~" H 4600 2950 50  0001 C CNN
+	1    4600 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3100 5550 3100
+Connection ~ 5150 3100
+$Comp
+L MRDT_Devices:OKI U2
+U 1 1 5B9E74CC
+P 4950 2900
+F 0 "U2" H 5000 2850 60  0001 C CNN
+F 1 "OKI" H 5150 3181 60  0000 C CNN
+F 2 "" H 4750 2800 60  0001 C CNN
+F 3 "" H 4750 2800 60  0001 C CNN
+	1    4950 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3100 4600 3100
+Connection ~ 4600 2800
+Wire Wire Line
+	4600 2800 4750 2800
+Connection ~ 4600 3100
+Wire Wire Line
+	4600 3100 5150 3100
+$Comp
+L Device:C C2
+U 1 1 5BA34C63
+P 5550 2950
+F 0 "C2" H 5665 2996 50  0000 L CNN
+F 1 "10uF" H 5550 2850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5588 2800 50  0001 C CNN
+F 3 "~" H 5550 2950 50  0001 C CNN
+	1    5550 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5550 2800
+Connection ~ 5550 3100
+$Comp
+L Device:C_Small C3
+U 1 1 5BA34DB0
+P 5650 4100
+F 0 "C3" V 5550 4150 50  0000 C CNN
+F 1 ".1uF" V 5600 3900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5650 4100 50  0001 C CNN
+F 3 "~" H 5650 4100 50  0001 C CNN
+	1    5650 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5BA34E3B
+P 5650 4200
+F 0 "C4" V 5700 4250 50  0000 C CNN
+F 1 ".1uF" V 5700 4050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5650 4200 50  0001 C CNN
+F 3 "~" H 5650 4200 50  0001 C CNN
+	1    5650 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5BA352F8
+P 6850 3800
+F 0 "C5" H 6942 3846 50  0000 L CNN
+F 1 ".1uF" H 6850 3700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6850 3800 50  0001 C CNN
+F 3 "~" H 6850 3800 50  0001 C CNN
+	1    6850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5BA35362
+P 6850 4100
+F 0 "C6" H 6942 4146 50  0000 L CNN
+F 1 ".1uF" H 6850 4000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6850 4100 50  0001 C CNN
+F 3 "~" H 6850 4100 50  0001 C CNN
+	1    6850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2800 4600 2800
+$Comp
+L power:GND #PWR0101
+U 1 1 5BAD9AAA
+P 4700 4950
+F 0 "#PWR0101" H 4700 4700 50  0001 C CNN
+F 1 "GND" H 4705 4777 50  0000 C CNN
+F 2 "" H 4700 4950 50  0001 C CNN
+F 3 "" H 4700 4950 50  0001 C CNN
+	1    4700 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4950 4700 4950
+$EndSCHEMATC
