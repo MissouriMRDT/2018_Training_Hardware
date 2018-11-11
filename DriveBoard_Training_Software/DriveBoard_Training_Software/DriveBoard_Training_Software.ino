@@ -36,6 +36,10 @@ void setup() {
   //9600 sets the baud rate
   Serial4.begin(9600);
   Serial6.begin(9600);
+  Serial1.begin(9600);
+  Serial2.begin(9600);
+  Serial3.begin(9600);
+  Serial5.begin(9600);
   
   //We use this serial to commnicate back to your computer for debugging
   Serial.begin(9600);
@@ -47,9 +51,10 @@ void setup() {
   delay(10);
   //Set up Wathdog
   Watchdog.begin(roveEstopDriveMotors, 150); //Will trip after 150ms and run roveEstopDriveMotors()
-  delay(10);
+  Watchdog.clear();
+  delay(100);
   
-  //Send msg to computer telling us everything is working
+  //Send msg to computer telling us everything is workingwwa
   Serial.println("Initialised");
 }
 
@@ -99,7 +104,11 @@ void loop() {
   //Send motor speed values to MoCos
   Serial4.write(left_drive_speed);
   Serial6.write(right_drive_speed);
-  delay(1);
+  Serial1.write(left_drive_speed);
+  Serial2.write(right_drive_speed);
+  Serial3.write(left_drive_speed);
+  Serial5.write(right_drive_speed);
+  delay(10);
 }
 
 void roveEstopDriveMotors() 
