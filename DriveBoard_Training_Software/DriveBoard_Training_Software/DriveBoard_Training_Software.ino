@@ -36,11 +36,7 @@ void setup() {
   //9600 sets the baud rate
   Serial4.begin(9600);
   Serial6.begin(9600);
-  Serial1.begin(9600);
-  Serial2.begin(9600);
-  Serial3.begin(9600);
-  Serial5.begin(9600);
-  
+    
   //We use this serial to commnicate back to your computer for debugging
   Serial.begin(9600);
   
@@ -86,8 +82,8 @@ void loop() {
 	  //Map the rovecomm values from their max/min to the max/min we are snding to the motor controllers
 	  //RED Span=(-1000, 1000); MC span=(0, 255)
 	  //                  map(value          ,  -1000          , 1000           , 0                , 255              );
-      left_drive_speed  = map(left_speed_temp,  RED_MAX_REVERSE, RED_MAX_FORWARD, DRIVE_MAX_REVERSE, DRIVE_MAX_FORWARD); 
-      right_drive_speed = map(right_speed_temp, RED_MAX_REVERSE, RED_MAX_FORWARD, DRIVE_MAX_REVERSE, DRIVE_MAX_FORWARD); 
+      left_drive_speed  = map(left_speed_temp,  RED_MIN_REVERSE, RED_MAX_FORWARD, DRIVE_MIN_REVERSE, DRIVE_MAX_FORWARD); 
+      right_drive_speed = map(right_speed_temp, RED_MIN_REVERSE, RED_MAX_FORWARD, DRIVE_MIN_REVERSE, DRIVE_MAX_FORWARD); 
       
       //Clear watchdog timer if we get a message	  
       Watchdog.clear();
@@ -104,10 +100,6 @@ void loop() {
   //Send motor speed values to MoCos
   Serial4.write(left_drive_speed);
   Serial6.write(right_drive_speed);
-  Serial1.write(left_drive_speed);
-  Serial2.write(right_drive_speed);
-  Serial3.write(left_drive_speed);
-  Serial5.write(right_drive_speed);
   delay(10);
 }
 
